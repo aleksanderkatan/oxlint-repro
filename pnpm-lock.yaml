@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      tinyest:
+        specifier: ^0.3.1
+        version: 0.3.1
     devDependencies:
       oxlint:
         specifier: ^1.57.0
@@ -175,6 +179,10 @@ packages:
       oxlint-tsgolint:
         optional: true
 
+  tinyest@0.3.1:
+    resolution: {integrity: sha512-SJNnjbvTEo5VmIjsMYpUFL34b9RyaI382r1v7gyVXZpd4VnjIZKMrGk1mphXM4zkhrs3hZfO1Xwv63DoZX50yw==}
+    engines: {node: '>=12.20.0'}
+
 snapshots:
 
   '@oxlint-tsgolint/darwin-arm64@0.17.3':
@@ -283,3 +291,5 @@ snapshots:
       '@oxlint/binding-win32-ia32-msvc': 1.57.0
       '@oxlint/binding-win32-x64-msvc': 1.57.0
       oxlint-tsgolint: 0.17.3
+
+  tinyest@0.3.1: {}

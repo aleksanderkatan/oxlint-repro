@@ -13,5 +13,8 @@
   "devDependencies": {
     "oxlint": "^1.57.0",
     "oxlint-tsgolint": "^0.17.3"
+  },
+  "dependencies": {
+    "tinyest": "^0.3.1"
   }
 }
